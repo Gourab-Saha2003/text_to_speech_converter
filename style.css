@@ -4,7 +4,6 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
-
 .hero {
   /* width: 100%; */
   min-height: 100vh;
@@ -14,7 +13,6 @@
   justify-content: center;
   flex-direction: column;
 }
-
 .hero h1 {
   font-size: 45px;
   font-weight: 600;
@@ -22,11 +20,9 @@
   margin-bottom: 50px;
   color: #fff;
 }
-
 .hero h1 span {
   color: #ff2963;
 }
-
 textarea {
   width: 600px;
   height: 250px;
@@ -40,19 +36,16 @@ textarea {
   resize: none;
   margin-bottom: 30px;
 }
-
 textarea::placeholder {
   font-size: 16px;
   color: #ddd;
 }
-
 .row {
   width: 600px;
   display: flex;
   align-items: center;
   gap: 20px;
 }
-
 button {
   background: #ff2963;
   color: #fff;
@@ -64,12 +57,10 @@ button {
   cursor: pointer;
   align-items: center;
 }
-
 button img {
   width: 16px;
   margin-right: 10px;
 }
-
 select {
   flex: 1;
   color: #fff;

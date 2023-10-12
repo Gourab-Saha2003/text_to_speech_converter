@@ -1,9 +1,5 @@
 let speech = new SpeechSynthesisUtterance();
-
-// selectbox start
-
 let voices = [];
-
 let voiceselect = document.querySelector("select");
 
 window.speechSynthesis.onvoiceschanged = () => {
@@ -18,7 +14,6 @@ window.speechSynthesis.onvoiceschanged = () => {
 voiceselect.addEventListener("change", () => {
   speech.voice = voices[voiceselect.value];
 });
-// selectbox end
 
 document.querySelector("button").addEventListener("click", () => {
   speech.text = document.querySelector("textarea").value;
